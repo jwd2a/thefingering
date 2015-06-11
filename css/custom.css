@@ -11,7 +11,9 @@ h1 {
     font-size: 4em;
 }
 
-p {
+h1 + p {
+  margin-bottom: 40px;
+  font-size: 2em;
   color: #ffffff;
 }
 
@@ -29,6 +31,7 @@ video {
 
 #success {
   display: none;
+  margin-bottom: 50px;
 }
 
 /* Form */
