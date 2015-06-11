@@ -32,10 +32,10 @@ input.input-large {
     padding: 9px 14px;
 }
 
-div.gradient {
+/*div.gradient {
     background: url(../img/gradient.png) no-repeat top center;
     min-height: 770px;
-}
+}*/
 
 div.content {
     text-align: center;
