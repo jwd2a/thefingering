@@ -1,75 +1,109 @@
-﻿<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta name="google-site-verification" content="BRLG3OIOb_AIClAWA_SNxGNgBospcNynMV8koMRhsso" />
-    <title>The Fingering Game</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="" />
+  <meta charset="utf-8" />
+  <meta name="google-site-verification" content="BRLG3OIOb_AIClAWA_SNxGNgBospcNynMV8koMRhsso" />
+  <title>The Fingering Game</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="" />
 
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
-    <link href="css/social-buttons.css" rel="stylesheet" />
-    <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/custom.css" rel="stylesheet" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
+  <link href="css/social-buttons.css" rel="stylesheet" />
+  <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/custom.css" rel="stylesheet" />
 
-    <!--[if lt IE 9]>
+  <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
 
-    <script type="text/javascript" src="bower_components/jquery-ui/jquery-ui.js"></script>
-    <script type="text/javascript" src="bower_components/imagesloaded/imagesloaded.js"></script>
-    <script type="text/javascript" src="bower_components/video.js/dist/video-js/video.js"></script>
-    <script type="text/javascript" src="bower_components/BigVideo.js/lib/bigvideo.js"></script>
+  <script type="text/javascript">
+    $(function() {
 
-    <!-- Color picker -->
-    <link href="colorpicker/css/colorpicker.css" rel="stylesheet" />
-    <script src="colorpicker/js/bootstrap-colorpicker.js"></script>
-    <script type="text/javascript">
-        $(function(){
-        window.prettyPrint && prettyPrint()
-            var logoStyle = $('#logo')[0].style;
-            var headingStyle = $('h1')[0].style;
-            $('#cp').colorpicker().on('changeColor', function(ev){
-                logoStyle.backgroundColor = ev.color.toHex();
-                headingStyle.color = ev.color.toHex();
-            });
+      $("video")[0].play();
 
-            $("video")[0].play();
-
-        });
-    </script>
+    });
+  </script>
 </head>
 
 <body>
-    <video autoplay loop controls="true" muted>
-      <source src="http://thefingeringgame.com/finger.mp4" type="video/mp4">
-    </video>
-    <div class="container">
-        <div class="gradient">
-            <div class="row">
-                <div class="span12">
-                    <div class="content">
-                        <h1>The Fingering Is Coming.</h1>
-                        <p>A casual interaction between two friends, in competitive gameplay. Launching Summer 2015.</p>
-<!--                        <form action="index.html" class="form-horizontal">
+  <video autoplay loop controls="true" muted>
+    <source src="http://thefingeringgame.com/finger.mp4" type="video/mp4">
+  </video>
+  <div class="container">
+    <div class="gradient">
+      <div class="row">
+        <div class="span12">
+          <div class="content">
+            <h1>The Fingering Is Coming.</h1>
+            <p>A casual interaction between two friends, in competitive gameplay. Launching Summer 2015.</p>
+            <!--                        <form action="index.html" class="form-horizontal">
                             <input type="email" name="email" placeholder="Get fingered" class="input-large" />
                             <input type="submit" value="Finger me!" class="btn btn-large" />
                         </form>-->
-                        <p>
-                            <a href="http://twitter.com/" class="sb circle twitter mytooltip" title="Twitter">Twitter</a>
-                            <a href="https://www.facebook.com/pages/The-Fingering-Game/384167965106244?sk=timeline" class="sb circle facebook mytooltip" title="Facebook">Facebook</a>
-                        </p>
+            <p>
+            <p id="success">Just a great finger, you're in. We'll let you know when you can start fingering the world. Until then, follow us on Facebook!</p>
+              <!-- Begin MailChimp Signup Form -->
+              <div id="mc_embed_signup">
+                <form action="//thefingeringgame.us11.list-manage.com/subscribe/post-json?u=2b13e90e477b1343d357e89c9&amp;id=37ab247506&amp;c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll">
+                    <div class="mc-field-group">
+                      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your email address...">
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
+                    <div id="mce-responses" class="clear">
+                      <div class="response" id="mce-error-response" style="display:none"></div>
+                      <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;">
+                      <input type="text" name="b_2b13e90e477b1343d357e89c9_37ab247506" tabindex="-1" value="">
+                    </div>
+                    <div class="clear">
+                      <input type="submit" value="Finger Me" name="subscribe" id="mc-embedded-subscribe" class="button">
+                    </div>
+                  </div>
+                </form>
+              </div>
 
+              <!--End mc_embed_signup-->
+              <a href="http://twitter.com/" class="sb circle twitter mytooltip" title="Twitter">Twitter</a>
+              <a href="https://www.facebook.com/pages/The-Fingering-Game/384167965106244?sk=timeline" class="sb circle facebook mytooltip" title="Facebook">Facebook</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script type="text/javascript">
+  $("form").submit(function(e){
+    e.preventDefault();
+
+    $.ajax({
+        type: $("form").attr('method'),
+        url: $("form").attr('action'),
+        data: $("form").serialize(),
+        cache       : false,
+        dataType    : 'json',
+        contentType: "application/json; charset=utf-8",
+        error       : function(err) { alert("Could not connect to the registration server. Please try again later."); },
+        success     : function(data) {
+            if (data.result != "success") {
+                // Something went wrong, do something to notify the user. maybe alert(data.msg);
+            } else {
+                $("form").hide();
+                $("#success").show();
+            }
+        }
+    });
+
+  });
+</script>
 </html>

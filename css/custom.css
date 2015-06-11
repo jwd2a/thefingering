@@ -26,3 +26,37 @@ video {
     transform: translateX(-50%) translateY(-50%);
     z-index: -1000;
 }
+
+#success {
+  display: none;
+}
+
+/* Form */
+
+div.mc-field-group label {
+  color: #fff;
+}
+
+#mc-embedded-subscribe-form {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(255,255,255,.08);
+}
+
+div.mc-field-group input {
+  width: 80%;
+  padding: 10px;
+
+}
+
+input.button {
+  padding: 10px;
+  background-color: lightblue;
+  border-style: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
